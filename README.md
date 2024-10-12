@@ -1,5 +1,10 @@
 See files in this repro as an example of implementation. Note: these behavior/resource packs are not complete so use these as a guide only for your specific implementation.
 
+the TLDR:
+This script tells "papercraft mob stickers" what to do when the book snaps your specific entity. So list your entity id, then list the ids of the stickers. Field 1 is the regular sticker item, Field 2 is the more rare sticker.
+
+At addon load, the script will try to send a data payload to my sticker addon, if it is successful then the book will magically work.
+
 Add the papercraft example script either to your main.ts or as it's own file. if you add it as it's own file, make sure to add an import the const "initExampleStickers" in your main. This structure is strict though you can add as many stickers as you want, you may need to adjust the payload size, section 4.
 
 ```
