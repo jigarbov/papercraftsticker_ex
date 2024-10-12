@@ -1,4 +1,6 @@
-Add the papercraft example script either to your main.ts or as it's own file. if you add it as it's own file, make sure to add an import the const "initExampleStickers" in your main.
+See files in this repro as an example of implementation. Note: these behavior/resource packs are not complete so use these as a guide only for your specific implementation.
+
+Add the papercraft example script either to your main.ts or as it's own file. if you add it as it's own file, make sure to add an import the const "initExampleStickers" in your main. This structure is strict though you can add as many stickers as you want, you may need to adjust the payload size, section 4.
 
 ```
 // 1) Make sure you import Entity, system and world from server:
