@@ -78,5 +78,5 @@ const chunkObject = (obj: typeof entities, chunkSize: number) => {
 }
 ```
 # sticker style guide
-Our stickers are mostly 32x32 to accommidate a black & white outline for the "paper" vibes they bring. You can add them however you like but generally I would prefer a similar style is used for consistency.
+Our stickers are mostly 32x32 to accommodate a black & white outline for the "paper" vibes they bring. You can add them however you like but generally I would prefer a similar style is used for consistency.
 ![sticker_1](https://github.com/user-attachments/assets/4e1c5af0-fccb-48bb-8f27-144baf0b2214)
