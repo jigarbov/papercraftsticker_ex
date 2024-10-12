@@ -1,0 +1,7 @@
+{
+    "resource_pack_name": "pack.name", 
+    "texture_data": {
+		"your_namespace:sticker_1": {"textures": "textures/sticker_1.png"},
+		"your_namespace:s_sticker_1": {"textures": "textures/s_sticker_1.png"}
+	}
+}

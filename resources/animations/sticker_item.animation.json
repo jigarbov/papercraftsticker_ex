@@ -1,0 +1,30 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.jig_pcs.sticker_item.first_person_hold": {
+			"loop": true,
+			"bones": {
+				"root_item": {
+					"rotation": [44.66857, -60.72247, -525.92562],
+					"position": [-0.5, 26, 0]
+				},
+				"bone2": {
+					"position": [0, 0, -0.5]
+				}
+			}
+		},
+		"animation.jig_pcs.sticker_item.third_person_hold": {
+			"loop": true,
+			"bones": {
+				"root_item": {
+					"rotation": [109.38277, -15.73775, -455.75271],
+					"position": [0, 22, 0]
+				},
+				"bone2": {
+					"rotation": [0, 0, -15],
+					"position": [-1, -1, -0.6]
+				}
+			}
+		}
+	}
+}
