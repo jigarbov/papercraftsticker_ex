@@ -1,6 +1,6 @@
 See files in this repro as an example of implementation.
-Note1: these behavior/resource packs are not complete so use these as a guide only for your specific implementation.
-Note2: by default these samples assume the stickers will be hidden from your addon and only be accessable when snapped by the sticker book. change menu category from none to something else for testing
+>Note1: these behavior/resource packs are not complete so use these as a guide only for your specific implementation.
+>Note2: by default these samples assume the stickers will be hidden from your addon and only be accessable when snapped by the sticker book. change menu category from none to something else for testing
 
 the TLDR:
 This script tells "papercraft mob stickers" what to do when the book snaps your specific entity. So list your entity id, then list the ids of the stickers. Field 1 is the regular sticker item, Field 2 is the more rare sticker.
