@@ -1,12 +1,9 @@
 {
-    "format_version": "1.20.50",
+    "format_version": "1.21.60",
     "minecraft:block": {
         "description": {
             "identifier": "your_namespace:sticker_1",
             "is_experimental": false,
-            "menu_category": {
-                "category": "none"
-            },
             "traits": {
                 "minecraft:placement_position": {
                     "enabled_states": [
@@ -26,14 +23,22 @@
             },
             "minecraft:flammable": true,
             "minecraft:friction": 0.4,
-            "minecraft:geometry": "geometry.your_namespace.a_carpet",
+            "minecraft:geometry": "geometry.your_namespace.a_sticker",
+            "minecraft:liquid_detection": {
+				"detection_rules":[
+					{
+						"can_contain_liquid": true,
+						"liquid_type":"water",
+						"on_liquid_touches": "no_reaction"
+					}
+				]
+			},
             "minecraft:material_instances": {
                 "*": {
                     "render_method": "alpha_test",
                     "texture": "your_namespace:sticker_1"
                 }
             },
-            "minecraft:loot": "loot_tables/sticker_1.json",
             "minecraft:selection_box": {
 				"origin": [-5, 0, -7.5],
 				"size": [10, 1, 15]

@@ -1,10 +1,10 @@
 {
-    "format_version": "1.20.50",
+    "format_version": "1.21.60",
     "minecraft:item": {
         "description": {
             "identifier": "your_namespace:s_sticker_1",
             "menu_category": {
-                "category": "none"
+                "category": "items"
             }
         },
         "components": {
@@ -13,12 +13,10 @@
 			"minecraft:fuel":{
 			    "duration": 3.0
 			},
-            "minecraft:icon": {
-                "texture": "your_namespace:sticker_1"
-            },
             "minecraft:hand_equipped": false,
             "minecraft:block_placer": {
-                "block": "your_namespace:s_sticker_1"
+                "block": "your_namespace:s_sticker_1",
+                "replace_block_item": true
             }
         }
     }

@@ -1,7 +1,6 @@
 {
     "texture_data": {
 		"your_namespace:sticker_1": {"textures": "textures/items/sticker_1.png"},
-
-		"your_namespace:s_sticker_1": {"textures": "textures/items/sticker_1.png"}
+		"your_namespace:s_sticker_1": {"textures": "textures/items/s_sticker_1.png"}
     }
 }

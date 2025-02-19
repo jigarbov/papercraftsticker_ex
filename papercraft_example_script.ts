@@ -16,10 +16,10 @@ import { Entity, system, world } from "@minecraft/server";
 // - propertyValue: Value of the property
 export const initExampleStickers = () => {
   const entities: { [entityType: string]: Array<{ conditions?: Array<{ component: string; componentValue?: number; } | { property: string; propertyValue: ReturnType<Entity['getProperty']>; }> } & ({ itemId: string; specialItemId?: string; })> } = {
-    'your_namespace:example_mob': [{itemId: 'your_namespace:normal_sticker',specialItemId: 'your_namespace:rare_sticker'}],
-    'your_namespace:example_complex_mob': [
-		{itemId: 'your_namespace:normal_sticker_1',specialItemId: 'your_namespace:rare_sticker_1',conditions: [{component: 'minecraft:variant',componentValue: 0}]},
-		{itemId: 'your_namespace:normal_sticker_2',specialItemId: 'your_namespace:rare_sticker_2',conditions: [{component: 'minecraft:variant',componentValue: 1}]}	],
+    'minecraft:cow': [{itemId: 'your_namespace:sticker_1',specialItemId: 'your_namespace:s_sticker_1'}],
+    'minecraft:mooshroom': [
+		{itemId: 'your_namespace:sticker_1',specialItemId: 'your_namespace:s_sticker_1',conditions: [{component: 'minecraft:variant',componentValue: 0}]},
+		{itemId: 'your_namespace:sticker_2',specialItemId: 'your_namespace:s_sticker_2',conditions: [{component: 'minecraft:variant',componentValue: 1}]}	],
   };
 
   // 3) Data Payload Construction

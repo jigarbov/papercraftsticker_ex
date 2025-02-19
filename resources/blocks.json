@@ -1,4 +1,5 @@
 {	
 	"format_version" : [ 1, 1, 0 ],
-	"your_namespace:sticker_1": {"sound": "mud"}
+	"your_namespace:sticker_1": {"sound": "mud"},
+	"your_namespace:s_sticker_1": {"sound": "mud"}
 }
