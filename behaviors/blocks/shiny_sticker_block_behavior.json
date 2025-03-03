@@ -21,6 +21,11 @@
             "minecraft:destructible_by_explosion": {
                 "explosion_resistance": 0.0
             },
+            "minecraft:custom_components": ["jig_pcs:shiny_particle_tick"],// keep this the way it is to add the sparkles consistent with the main addon
+			"minecraft:tick": {
+			    "interval_range": [ 60, 120 ],
+			    "looping": true
+			},
             "minecraft:flammable": true,
             "minecraft:friction": 0.4,
             "minecraft:geometry": "geometry.your_namespace.a_sticker",
